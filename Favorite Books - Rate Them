@@ -1,0 +1,10 @@
+https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/pc/challenge-book-list-database
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "Say you swear", 2);
+INSERT INTO books VALUES (2, "Verity", 5);
+INSERT INTO books VALUES (3, "Anestheritc", 3);
+INSERT INTO books VALUES (4, "Inertia", 4);
+INSERT INTO books VALUES (5, "Ecstasy", 1);
+SELECT * FROM books;
